@@ -1,0 +1,14 @@
+name="krita"
+package_name="krita"
+description="ペイントソフトウェア"
+run_preparing=false
+install(){
+add-apt-repository ppa:kritalime/ppa -y
+apt-get update -y
+apt-get install ${package_name} krita-l10n
+}
+uninstall(){
+    add-apt-repository --remove ppa:kritalime/ppa -y
+    apt-get purge ${package_name} krita-l10n -y
+    apt-get autoremove --purge -y
+}
