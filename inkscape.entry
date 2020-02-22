@@ -1,6 +1,6 @@
 name="inkscape"
 package_name="inkscape"
-description="ドロー系画像編集ソフト"
+description="ベクター系画像編集ソフト"
 run_preparing=false
 install(){
     add-apt-repository ppa:inkscape.dev/stable -y

@@ -1,6 +1,6 @@
 name="flashplugin-installer"
 package_name="flashplugin-installer"
-description="flashplugin-installer"
+description="FlashPlayerプラグイン"
 run_preparing=false
 install(){
     apt-get install -y ${package_name}

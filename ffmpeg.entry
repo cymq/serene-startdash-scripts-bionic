@@ -1,6 +1,6 @@
 name="ffmpeg"
 package_name="ffmpeg"
-description="ffmpeg動画ファイルの変換を行うことができるソフトウェア"
+description="動画ファイルの変換を行うことができるソフトウェア"
 run_preparing=false
 install(){
     apt-get install -y ${package_name}

@@ -1,6 +1,6 @@
 name=Nemo
 package_name=nemo
-description="NautilusからフォークしたMateのファイルマネージャー"
+description="NautilusからフォークしたCinnamonのファイルマネージャー"
 run_preparing=false
 install(){
     apt-get install -y ${package_name}

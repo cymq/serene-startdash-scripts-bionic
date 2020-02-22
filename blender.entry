@@ -1,6 +1,6 @@
 name="blender"
 package_name="blender"
-description="3D系"
+description="3DCGソフトウェア"
 run_preparing=false
 install(){
     add-apt-repository ppa:thomas-schiex/blender -y

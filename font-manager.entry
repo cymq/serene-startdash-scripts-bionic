@@ -1,6 +1,6 @@
 name="font-manager"
 package_name="font-manager"
-description="フォント系管理をGUIソフトウェア"
+description="GUIフォント管理ソフトウェア"
 run_preparing=false
 install(){
     apt-get install -y ${package_name}
